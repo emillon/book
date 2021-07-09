@@ -1,11 +1,11 @@
 (mdx
  (files README.md)
- (packages
-  async
-  cohttp-async
-  core
-  mdx
-  ppx_jane
-  textwrap
-  yojson)
+ (deps
+  (package async)
+  (package cohttp-async)
+  (package core)
+  (package mdx)
+  (package ppx_jane)
+  (package textwrap)
+  (package yojson))
  (preludes prelude.ml))

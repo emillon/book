@@ -1,12 +1,12 @@
 (mdx
  (files README.md)
- (packages
-  core
-  ctypes
-  ctypes-foreign
-  mdx
-  ocaml-print-intf
-  ppx_jane)
+ (deps
+  (package core)
+  (package ctypes)
+  (package ctypes-foreign)
+  (package mdx)
+  (package ocaml-print-intf)
+  (package ppx_jane))
  (preludes prelude.ml))
 
 (data_only_dirs examples)

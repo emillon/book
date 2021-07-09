@@ -1,9 +1,9 @@
 (mdx
  (files README.md)
- (packages
-  core
-  mdx
-  ppx_jane)
+ (deps
+  (package core)
+  (package mdx)
+  (package ppx_jane))
  (preludes
   prelude.ml
   subtyping.ml))

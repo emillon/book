@@ -1,11 +1,11 @@
 (mdx
  (files README.md)
- (packages
-  async
-  core
-  core_bench
-  mdx
-  ppx_jane)
+ (deps
+  (package async)
+  (package core)
+  (package core_bench)
+  (package mdx)
+  (package ppx_jane))
  (preludes prelude.ml))
 
 (data_only_dirs examples)

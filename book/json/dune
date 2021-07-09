@@ -1,10 +1,10 @@
 (mdx
  (files README.md)
- (packages
-  core
-  mdx
-  ppx_jane
-  yojson)
+ (deps
+  (package core)
+  (package mdx)
+  (package ppx_jane)
+  (package yojson))
  (preludes prelude.ml))
 
 (data_only_dirs examples)
