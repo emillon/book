@@ -1,3 +1,20 @@
+### 1.10.0
+
+#### Added
+
+- Display OCaml warnings in mdx-error blocks (#293, @gpetiot)
+
+#### Fixed
+
+- Show exceptions in the correct order (#332, @talex5)
+
+### 1.9.0
+
+#### Added
+
+- Add a new `dune-gen` subcommand that generates testing code for Dune to build
+  and run with the new `mdx` stanza. (#305, @voodoos)
+
 ### 1.8.1
 
 #### Changed

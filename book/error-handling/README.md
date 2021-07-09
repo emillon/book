@@ -363,10 +363,10 @@ end of the list:
 
 ```ocaml env=main
 # List.map ~f:(fun x -> Stdio.printf "%d\n%!" x; 100 / x) [1;3;0;4]
-Exception: Division_by_zero.
 1
 3
 0
+Exception: Division_by_zero.
 ```
 
 In addition to built-in exceptions like `Divide_by_zero`, OCaml lets you
